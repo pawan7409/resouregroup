@@ -3,4 +3,8 @@ rg={
         name="pawan-rg"
         location= "west Europe"
     }
+     rg2={
+        name="pawan"
+        location= "west Europe"
+    }
 }
