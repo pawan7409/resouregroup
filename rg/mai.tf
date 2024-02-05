@@ -1,4 +1,5 @@
 resource "azurerm_resource_group" "example" {
-  name     = "example"
-  location = "West Europe"
+  for_each = each.var
+  name     = each.value.name
+  location = each.value.location
 }
